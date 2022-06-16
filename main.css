@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'gotham';
-    src: url('media/GothamMedium.ttf');
+    src: url(./media/gothammedium.ttf);
 }
 
 * {
