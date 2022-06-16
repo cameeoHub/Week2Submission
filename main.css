@@ -1,0 +1,235 @@
+@font-face {
+    font-family: 'gotham';
+    src: url('media/GothamMedium.ttf');
+}
+
+* {
+    margin: 0 0 0 0;
+}
+
+
+#nav {
+    max-height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    font-family: 'gotham';
+    font-size: 16px;
+}
+
+#nav img {
+    height: 75px;
+    display: flex;
+}
+
+#nav .navItems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.navItems li {
+    display: inline-block;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.navItems a {
+    color: white;
+    text-decoration: none;
+}
+
+.navItems a:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#poster {
+    background-color: rgb(41, 65, 171);
+    min-height: 846px;
+    font-family: 'gotham';
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#poster h1 {
+    background-color: rgb(41, 65, 171);
+    font-family: 'gotham';
+    font-size: 125px;
+    color: #1ed760;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+#poster button {
+    background-color: #1ed760;
+    border: none;
+    font-family: 'gotham';
+    color: rgb(41, 65, 171);
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#poster a {
+    text-decoration: none;
+}
+
+#poster button:hover {
+    cursor: pointer;
+    width: 210px;
+    height: 60px;
+}
+
+#poster p {
+    color:#1ed760;
+    font-family: 'gotham';
+}
+
+
+#lowerLinks {
+    height: 530px;
+    background-color: black;
+    color: rgb(83, 83, 83);
+    padding: 5%;
+    font-family: 'gotham';
+    font-size: 15px;
+}
+
+#lowerLinks li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#lowerLinks a img {
+    display: flex;
+    width: auto;
+    float: left;
+    display: inline-block;
+}
+
+#lowerLinks a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#lowerLinks a:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#lowerLinks div {
+    display: flex;
+    flex-wrap: wrap;
+    float: inline-start;
+}
+
+#lowerLinks .company {
+    width: auto;
+    float: left;
+    padding: 20px;
+    display: inline-block;
+}  
+
+#lowerLinks .communities {
+    width: auto;
+    float: left;
+    padding: 20px;
+    display: inline-block;
+}  
+
+#lowerLinks .useful {
+    width: auto;
+    float: left;
+    padding: 20px;
+    display: inline-block;
+}  
+
+#lowerLinks .insta {
+    border: 1px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: rgba(59, 59, 59, 0.597);
+}
+
+#lowerLinks .twitter {
+    border: 1px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: rgba(59, 59, 59, 0.597);
+}
+
+#lowerLinks .fbook {
+    border: 1px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: rgba(59, 59, 59, 0.597);
+}
+
+#lowerLinks .socials {
+    float: right;
+}
+
+#lowerLinks .socials:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.smlPrint {
+    background-color: black;
+}
+
+.smlPrint li {
+    color: rgb(83, 83, 83);
+    padding: 1%;
+    font-family: 'gotham';
+    font-size: 12px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.smlPrint a {
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+.smlPrint a:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+}
+
+footer {
+    color:rgb(83, 83, 83);
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color:rgb(83, 83, 83)
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
